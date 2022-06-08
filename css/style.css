@@ -1,0 +1,227 @@
+* {
+    padding: 0;	
+}
+
+nav {
+	height: 64px;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+
+.logo {
+	float: left;
+	padding-left: 24px;
+	padding-top: 5px;
+}
+
+.topheader ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+}
+
+.topheader ul li {
+    padding-right: 0.25rem;
+    font-weight: bold;
+    margin-right: 24px;
+    
+}
+
+.containercolor {
+	background-color: rgb(216,216,216);
+}
+
+.imageleft1 {
+    padding: 32px 0 32px 24px;
+	float: left;
+}
+
+.learnsome {
+    padding-left: 24px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 300%;
+}
+
+.starthere {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 40px;
+  text-decoration: none;
+  
+}
+
+.sidebar img{
+    width: 35%;
+    height: auto;
+    padding-bottom: 10px;
+	
+}
+.sidetext {
+    padding-left: 30px;
+    text-align: left;
+    display: inline;
+   
+}
+#footer {
+    padding-left: 24px;
+    padding-top: 16px;
+    float: left;
+}
+
+
+
+
+.imageleft2 {
+    padding-top: 32px;
+    padding-right: 0;
+    padding-left: 40px;
+    padding-bottom: 32px;
+    float: left;
+}
+
+
+
+.sidebarimg {
+    float: left;
+}
+
+.secondimagetext {
+    clear: left;
+    font-size: 37px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 32px;
+
+	
+}
+
+
+
+.row .three-four {
+	margin-top: 25px;
+}
+.row.three h1 {
+    margin-top: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.card {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.card-group {
+    margin-right: 0px;
+    margin-left: 40px;
+
+}
+
+.video {
+    padding-left: 30px;
+}
+.fisma {
+    float: left;
+}
+
+
+.column8one img {
+	
+	width: 60%;
+}
+
+
+.column4one img{
+	width: 39%;
+}
+
+.section2img {
+    padding-left: 0px;
+    margin-left: 42px;
+}
+
+#footer-right {
+    float: right;
+    padding-top: 16px;
+}
+@media only screen and (max-width: 600px) {
+	 h2 {
+		display: none;
+	}
+	
+	.logo {
+		display: none;
+	}
+	
+	.learnsome {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	
+	.imageleft1 {
+		width: 10%;
+	}
+	
+	.oncampus {
+		background-image: url("../images/ic-logo2.svg");
+		background-repeat: no-repeat;
+	}
+	
+	.online {
+		background-image: url("../images/ic-on-campus.svg");
+		background-repeat: no-repeat;
+	}
+	
+	.companies {
+		background-image: url("../images/ic-online.svg");
+		background-repeat: no-repeat;
+	}
+	
+	.signin {
+		background-image: url("../images/ic-login.svg");
+		background-repeat: no-repeat;
+	}
+	
+	#navigation {
+		padding-top: 5px;
+	}
+	
+	.navlinks a {
+		visibility: hidden;
+	}
+	
+	.starthere {
+		
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 8px 20px;
+  text-decoration: none; 		
+margin-left: 24px;		
+	}
+	
+	.column4one {
+		margin-bottom: 25px;
+		
+	}
+	
+	.subhead {
+		padding-left: 24px;
+	}
+	
+	#footer-right {
+		display: none;
+	}
+	
+	#footer {
+		text-align: center;
+	}
+}
